@@ -1,5 +1,5 @@
 // Compiled using typings@0.6.10
-// Source: https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/bc92442c075929849ec41d28ab618892ba493504/jasmine/jasmine.d.ts
+// Source: https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/d594ef506d1efe2fea15f8f39099d19b39436b71/jasmine/jasmine.d.ts
 // Type definitions for Jasmine 2.2
 // Project: http://jasmine.github.io/
 // Definitions by: Boris Yankov <https://github.com/borisyankov/>, Theodore Brown <https://github.com/theodorejb>, David Pärsson <https://github.com/davidparsson/>
@@ -458,6 +458,8 @@ declare module jasmine {
         object: any;
         /** All arguments passed to the call */
         args: any[];
+        /** The return value of the call */
+        returnValue: any;
     }
 
     interface Util {
